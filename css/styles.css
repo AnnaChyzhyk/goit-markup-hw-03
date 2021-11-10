@@ -1,0 +1,182 @@
+    :root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --acent-text-color: #2196f3;
+    --header-text-color: #ffffff;
+    --logo-text-color: #000000;
+    --footer-background: #2f303a;
+    --background-bootun: #f5f4fa;
+    --footer-nav-text: 255, 255, 255;
+    }
+
+    body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    font-style: normal;
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        margin: 0;
+    }
+    /* Шапка макета */
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .decoration {
+    text-decoration: none;
+    }
+    .decoration.current {
+    color: var(--acent-text-color);
+    }
+    .logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--logo-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    }
+    
+    .web {
+    color: var(--acent-text-color);
+    }
+    .site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    }
+    .auht-nav .nav {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    }
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+    color: var(--acent-text-color);
+    }
+    .auht-nav .nav:hover,
+    .auht-nav .nav.nav:focus {
+    color: var(--acent-text-color);
+    }
+    .site-nav .link.current{
+        color: var(--acent-text-color)
+    }
+    /* блок герой */
+    .main-title {
+    background-color: var(--footer-background);
+    }
+    .title-text {
+    color: var(--header-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+    .hero-buton {
+    background-color: var(--acent-text-color);
+    color: var(--header-text-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    }
+    /* Блок наша особенность */
+    .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+    .subtitle-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    .text {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    }
+    /* <!-- Наша команда --> */
+    .subtitle-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    }
+    .profeshion-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    }
+    /* футер */
+    .footer {
+    background-color: var(--footer-background);
+    }
+    .text-studio {
+    color: var(--background-bootun);
+    }
+    .adres {
+    color: var(--header-text-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    }
+    .auht-nav .footer {
+    color: rgba(var(--footer-nav-text), 0.6);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    }
+    .button-text {
+    background-color: var(--background-bootun);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    .button-text:hover,
+    .button-text:focus {
+    background-color: var(--acent-text-color);
+    color: var(--header-text-color);
+    cursor: pointer;
+    }
+    .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    }
+    .text-portfolio {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    }
