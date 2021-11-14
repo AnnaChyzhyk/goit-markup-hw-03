@@ -142,9 +142,10 @@ body {
 
 /* блок герой */
 .main-title {
-  height: 600px;
   width: 100%;
   background-color: var(--footer-background);
+  padding-top: 195px;
+  padding-bottom: 285px;
 }
 
 .container-heroes {
@@ -172,6 +173,10 @@ body {
 
 .hero-buton {
   display: block;
+  border: 1px solid var(--acent-text-colo);
+  border-radius: 4px;
+  padding: 10px 32px;
+  
 
   align-items: center;
   text-align: center;
@@ -188,8 +193,8 @@ body {
 /* Блок наша особенность */
 .box-item{
   display: flex;
-  margin-top: 89px;
-  margin-bottom: 94px;
+  padding-top: 89px; 
+  padding-bottom: 94px; 
 }
 
 .box-li{
@@ -212,7 +217,6 @@ body {
 }
 
 .section-title {
-  /* margin-top: 120px; */
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -244,8 +248,8 @@ body {
 
 .box-doing{
  display: flex;
- margin-top: 50px;
-  margin-bottom: 39px;
+ padding-top: 50px;
+ padding-bottom: 40px;
   
 }
 
@@ -268,7 +272,7 @@ body {
 
 .box-comand{
     display: flex;
-    border: 1px solid tomato;
+    
 }
 
 .comand-li:not(:last-child) {
@@ -276,20 +280,34 @@ body {
   
 }
 
+.comand-li{
+  box-shadow:  0px 2px  1px rgba(0, 0, 0, 0.2),0px 1px  1px rgba(0, 0, 0, 0.14), 3px 0px  1px rgba(0, 0, 0, 0.12); 
+}
+
 .comand-div{
     display: flex;
+    height: 108px;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+
+    background-color: var(--header-text-color);
 }
 
 .section.color {
-  height: 648px;
   width: 100%;
   margin-top: 39px;
   margin-bottom: 55px;
+  padding-top: 102px;
+  padding-bottom: 98px;
   background-color: var(--section-color);
 }
+
 .subtitle-name {
   margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -307,12 +325,17 @@ body {
 
 
 /* футер */
-/* .web .text-studio{
-      margin-top: 60px;  
-      margin-bottom: 20px;
-    } */
+/* .flex-footer{
+  display: flex;
+} */
+
+/* .auht-nav .box-adres{
+display: block;
+} */
+
 .footer {
   background-color: var(--footer-background);
+  height: 250px;
 }
 .text-studio {
   color: var(--background-bootun);
@@ -336,32 +359,61 @@ body {
 }
 
 /* портфолио */
-.portfolio-button,
-.portfolio-flex {
+.container.border{
+border-bottom: 1px solid #ececec;
+}
+
+.portfolio-button{
   display: flex;
   flex-wrap: wrap;
 }
-
+.portfolio-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+ 
+.portfolio-button{
+  padding-top: 80px;
+  padding-bottom: 35px;
+  justify-content: center;
+  text-align: center;
+}
 .button-text {
+  /* display: block; */
   border: 1px solid var(--button-border);
   border-radius: 4px;
   padding: 6px 22px;
-  text-align: center;
-
+  
+  border-style: none;
   background-color: var(--background-bootun);
   color: var(--primary-text-color);
+  box-shadow:  0px 2px  1px rgba(0, 0, 0, 0.2);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
+
+/* .button-text:not(:last-child) {
+    margin-left: 8px;
+} */
+
 .button-text:hover,
 .button-text:focus {
   background-color: var(--acent-text-color);
   color: var(--header-text-color);
   cursor: pointer;
 }
+
+.li-img{
+  flex-basis: calc((100% - 9 * 30px) / 9);
+   margin-left: 30px;
+  margin-bottom: 30px;
+}
+
 .portfolio-title {
   margin-bottom: 5px;
 
