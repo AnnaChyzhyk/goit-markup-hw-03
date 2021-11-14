@@ -16,11 +16,11 @@
 body::-webkit-scrollbar {
   width: 3px;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
@@ -172,11 +172,11 @@ address {
 }
 
 .container-heroes {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title-text {
@@ -199,7 +199,6 @@ address {
   border: 1px solid var(--acent-text-colo);
   border-radius: 4px;
   padding: 10px 32px;
-  
 
   align-items: center;
   text-align: center;
@@ -214,13 +213,13 @@ address {
   letter-spacing: 0.06em;
 }
 /* Блок наша особенность */
-.box-item{
+.box-item {
   display: flex;
-  padding-top: 89px; 
-  padding-bottom: 94px; 
+  padding-top: 89px;
+  padding-bottom: 94px;
 }
 
-.box-li{
+.box-li {
   display: block;
   width: 270px;
   height: 101px;
@@ -228,7 +227,6 @@ address {
 
 .box-li:not(:last-child) {
   margin-right: 30px;
-  
 }
 
 .visually-hidden {
@@ -269,55 +267,52 @@ address {
 
 /* <!-- Блок Чем мы занимаемся --> */
 
-.box-doing{
- display: flex;
- padding-top: 50px;
- padding-bottom: 40px;
-  
+.box-doing {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
-.doing-img{
-    display: block;
+.doing-img {
+  display: block;
 }
 
 .doing-img:not(:last-child) {
   margin-right: 30px;
-  
 }
 /* <!-- Наша команда --> */
-.comand-container{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.comand-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.box-comand{
-    display: flex;
-    
+.box-comand {
+  display: flex;
 }
 
 .comand-li:not(:last-child) {
   margin-right: 30px;
-  
 }
 
-.comand-li{
-  box-shadow:  0px 2px  1px rgba(0, 0, 0, 0.2),0px 1px  1px rgba(0, 0, 0, 0.14), 3px 0px  1px rgba(0, 0, 0, 0.12); 
+.comand-li {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    3px 0px 1px rgba(0, 0, 0, 0.12);
 }
 
-.comand-div{
-    display: flex;
-    height: 108px;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border: 1px solid #EEEEEE;
-    border-top: none;
+.comand-div {
+  display: flex;
+  height: 108px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 
-    background-color: var(--header-text-color);
+  background-color: var(--header-text-color);
 }
 
 .section.color {
@@ -346,16 +341,16 @@ address {
 }
 
 /* портфолио */
-.border{
-border-bottom: 1px solid #ececec;
+.border {
+  border-bottom: 1px solid #ececec;
 }
 
-.portfolio-button{
+.portfolio-button {
   display: flex;
   flex-wrap: wrap;
 }
- 
-.portfolio-button{
+
+.portfolio-button {
   padding-top: 80px;
   padding-bottom: 35px;
   justify-content: center;
@@ -365,11 +360,11 @@ border-bottom: 1px solid #ececec;
   border: 1px solid var(--button-border);
   border-radius: 4px;
   padding: 6px 22px;
-  
+
   border-style: none;
   background-color: var(--background-bootun);
   color: var(--primary-text-color);
-  box-shadow:  0px 2px  1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
 
   font-weight: 500;
   font-size: 16px;
@@ -378,7 +373,7 @@ border-bottom: 1px solid #ececec;
 }
 
 .button-wrapper:not(:last-child) {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .button-text:hover,
@@ -398,9 +393,9 @@ border-bottom: 1px solid #ececec;
 
 .li-img {
   flex-basis: calc((100% - 3 * 30px) / 3);
-  margin-left: 30px; 
+  margin-left: 30px;
   margin-top: 30px;
-  box-shadow:  0px 3px 3px rgb(0 0 0 / 25%);
+  box-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
 }
 
 .li-img a {
@@ -408,9 +403,8 @@ border-bottom: 1px solid #ececec;
   color: var(--primary-text-color);
 }
 
-.link-border{
+.link-border {
   margin: 44px 24px 20px;
-  
 }
 
 .portfolio-title {
