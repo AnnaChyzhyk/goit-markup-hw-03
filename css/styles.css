@@ -165,22 +165,28 @@ address {
 
 /* блок герой */
 .main-title {
-  width: 100%;
+  min-width: 1600px;
   background-color: var(--footer-background);
-  padding-top: 195px;
-  padding-bottom: 285px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.container-heroes {
+.section{
+padding-top: 89px;
+  padding-bottom: 94px;
+}
+
+/* .container-heroes {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 .title-text {
   width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
   text-align: center;
 
@@ -197,6 +203,7 @@ address {
 .hero-buton {
   display: block;
   border: 1px solid var(--acent-text-colo);
+  margin: 0 auto;
   border-radius: 4px;
   padding: 10px 32px;
 
@@ -215,14 +222,14 @@ address {
 /* Блок наша особенность */
 .box-item {
   display: flex;
-  padding-top: 89px;
-  padding-bottom: 94px;
+  /* padding-top: 89px;
+  padding-bottom: 94px; */
 }
 
 .box-li {
   display: block;
   width: 270px;
-  height: 101px;
+  /* height: 101px; */
 }
 
 .box-li:not(:last-child) {
@@ -266,11 +273,11 @@ address {
 }
 
 /* <!-- Блок Чем мы занимаемся --> */
-
+.section-img{
+  padding-bottom: 94px;
+}
 .box-doing {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 40px;
 }
 
 .doing-img {
@@ -303,10 +310,7 @@ address {
 }
 
 .comand-div {
-  display: flex;
-  height: 108px;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
   border: 1px solid #eeeeee;
@@ -315,12 +319,12 @@ address {
   background-color: var(--header-text-color);
 }
 
-.section.color {
-  width: 100%;
-  margin-top: 39px;
+.section {
+  /* width: 100%;
+  margin-top: 39px; */
   margin-bottom: 55px;
-  padding-top: 102px;
-  padding-bottom: 98px;
+  /* padding-top: 102px;
+  padding-bottom: 98px; */
   background-color: var(--section-color);
 }
 
@@ -341,6 +345,9 @@ address {
 }
 
 /* портфолио */
+.section-portfolio{
+
+}
 .border {
   border-bottom: 1px solid #ececec;
 }
@@ -351,7 +358,6 @@ address {
 }
 
 .portfolio-button {
-  padding-top: 80px;
   padding-bottom: 35px;
   justify-content: center;
   text-align: center;
@@ -437,30 +443,23 @@ footer {
   color: var(--background-bootun);
 }
 
-address li {
-  padding-bottom: 9px;
+address li:not(:last-child){
+ margin-bottom: 9px;
 }
 
 .footer-wrapper {
   height: 100%;
 }
 
-.footer-block {
-  height: 50%;
-}
-
-.footer-block .logo-footer {
+ .logo-footer {
+   display: block;
+  margin-bottom: 20px; 
+  
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
-
-.footer-block.content-footer-center {
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 20px;
 }
 
 .footer-link {
