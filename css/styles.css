@@ -106,7 +106,7 @@ address {
 
 .logo {
   color: var(--logo-text-color);
-  margin-right: 50px;
+  margin-right: 93px;
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -279,9 +279,8 @@ address {
 /* <!-- Наша команда --> */
 .section-color{
  background-color: var(--section-color);
- padding-top: 102px;
- padding-bottom: 98px;
- margin-bottom: 55px;
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 
 .comand-container {
@@ -343,7 +342,7 @@ address {
 }
 
 .portfolio-button {
-  padding-bottom: 35px;
+  margin-bottom: 54px;
   justify-content: center;
   text-align: center;
 }
