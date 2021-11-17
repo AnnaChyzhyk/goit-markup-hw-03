@@ -106,7 +106,7 @@ address {
 
 .logo {
   color: var(--logo-text-color);
-  margin-right: 93px;
+  margin-right: 94px;
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -123,6 +123,7 @@ address {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  
 
   color: var(--primary-text-color);
 
@@ -145,6 +146,15 @@ address {
   letter-spacing: 0.02em;
 }
 
+.nav > .icon{
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  background-image: url(../);
+  
+}
 .auht-nav .li-auht + .li-auht {
   margin-left: 50px;
 }
@@ -165,14 +175,25 @@ address {
 
 /* блок герой */
 .main-title {
-  min-width: 1600px;
+  box-sizing: border-box;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   background-color: var(--footer-background);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../images/Img\ \(1\).jpg);
+  
+
 }
 
 .section{
-  padding-top: 89px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -278,6 +299,11 @@ address {
 }
 /* <!-- Наша команда --> */
 .section-color{
+  box-sizing: border-box;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
  background-color: var(--section-color);
  padding-top: 94px;
  padding-bottom: 94px;
@@ -425,6 +451,9 @@ footer {
 }
 
 .footer {
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 0 auto;
   background-color: var(--footer-background);
   padding: 60px 0;
 }
